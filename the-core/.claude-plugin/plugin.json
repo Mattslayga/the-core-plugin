@@ -1,0 +1,11 @@
+{
+  "name": "the-core",
+  "version": "0.1.1",
+  "description": "Shared memory and work context for you and your agents. Orient, capture, link, set up first-run context and hand off work through The Core's hosted MCP connector.",
+  "author": {
+    "name": "Slaytek Systems",
+    "url": "https://core-edge.slayteksystems.com"
+  },
+  "homepage": "https://core-edge.slayteksystems.com/agents",
+  "keywords": ["memory", "knowledge", "notes", "tasks", "projects", "handoff", "mcp"]
+}

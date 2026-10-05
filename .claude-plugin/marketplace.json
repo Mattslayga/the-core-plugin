@@ -1,0 +1,18 @@
+{
+  "name": "the-core",
+  "owner": {
+    "name": "Slaytek Systems",
+    "url": "https://core-edge.slayteksystems.com"
+  },
+  "metadata": {
+    "description": "The Core plugin for admitted alpha testers."
+  },
+  "plugins": [
+    {
+      "name": "the-core",
+      "source": "./the-core",
+      "description": "Shared memory and work context for you and your agents through The Core's hosted MCP connector.",
+      "category": "productivity"
+    }
+  ]
+}

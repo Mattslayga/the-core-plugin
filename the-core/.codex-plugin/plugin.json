@@ -1,0 +1,29 @@
+{
+  "name": "the-core",
+  "version": "0.1.1",
+  "description": "Shared memory and work context for you and your agents. Orient, capture, link, set up first-run context and hand off work through The Core's hosted MCP connector.",
+  "author": {
+    "name": "Slaytek Systems",
+    "url": "https://core-edge.slayteksystems.com"
+  },
+  "homepage": "https://core-edge.slayteksystems.com/agents",
+  "keywords": ["memory", "knowledge", "notes", "tasks", "projects", "handoff", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "The Core",
+    "shortDescription": "Shared memory and work context for you and your agents",
+    "longDescription": "The Core keeps notes, tasks, projects and the links between them so any authorised agent can pick up where the last one stopped. This plugin connects the hosted The Core MCP server and adds workflows to orient at session start, capture and link decisions and work, set up first-run context from material you provide, and leave handoffs a fresh agent can continue from.",
+    "developerName": "Slaytek Systems",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://core-edge.slayteksystems.com/agents",
+    "privacyPolicyURL": "https://core-edge.slayteksystems.com/privacy",
+    "termsOfServiceURL": "https://core-edge.slayteksystems.com/alpha-terms",
+    "defaultPrompt": [
+      "Orient me in The Core and tell me what is next.",
+      "Set me up in The Core from this conversation.",
+      "Write a handoff in The Core for what we did today."
+    ]
+  }
+}

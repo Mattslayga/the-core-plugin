@@ -1,0 +1,20 @@
+{
+  "name": "the-core",
+  "interface": {
+    "displayName": "The Core"
+  },
+  "plugins": [
+    {
+      "name": "the-core",
+      "source": {
+        "source": "local",
+        "path": "./the-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
