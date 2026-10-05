@@ -18,25 +18,25 @@ The plugin contains no keys or tokens. It points at `https://core-edge.slayteksy
 
 ## Install
 
-The plugin is distributed manually to alpha testers. `<owner>/<repo>` below is the package repository you were given.
+The plugin is published at [`Mattslayga/the-core-plugin`](https://github.com/Mattslayga/the-core-plugin) and distributed to admitted alpha testers.
 
 ### Claude Code
 
-1. `claude plugin marketplace add <owner>/<repo>`
+1. `claude plugin marketplace add Mattslayga/the-core-plugin`
 2. `claude plugin install the-core@the-core`
 3. Run `/mcp` in Claude Code, choose the `core` server and complete sign-in.
 
 ### claude.ai chat and Cowork
 
 1. Open **Customize > Plugins > Add**.
-2. Choose **Add marketplace** and enter `<owner>/<repo>`, or choose **Upload plugin** and select the zip file you were given.
+2. Choose **Add marketplace** and enter `Mattslayga/the-core-plugin`, or choose **Upload plugin** and select the zip file you were given.
 3. Open the plugin's **Connectors** tab and connect the server. Adding the plugin does not connect it.
 
 A plugin installed on your claude.ai account is also available in Cowork.
 
 ### Codex CLI and ChatGPT desktop app
 
-1. `codex plugin marketplace add <owner>/<repo>`
+1. `codex plugin marketplace add Mattslayga/the-core-plugin`
 2. Install **The Core** from `/plugins` in Codex CLI, or from the Plugins directory in the ChatGPT desktop app.
 3. Sign in to the `core` server when prompted. If you are not prompted, open `/mcp` and authenticate the server listed there.
 
